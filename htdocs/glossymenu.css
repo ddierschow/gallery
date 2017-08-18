@@ -1,0 +1,62 @@
+
+.glossymenu {
+  display: table-cell;
+  list-style-type: none;
+  margin: 0px 0;
+  padding: 0;
+  width: 160px;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  vertical-align: middle;
+  position: absolute;
+  float: left;
+}
+
+.glossymenu li {
+  border-width: 1px 0px 0px 0px;
+  border-style: solid;
+  background-image: url('/art/menuitem.gif');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #001A00;
+}
+
+.glossymenu li a {
+  background-color: transparent;
+  font-weight: bold;
+  font-size:  14px;
+  display: block;
+  width: 160px;
+  padding: 13px 0 13px 6px;
+  margin: 0 0;
+  text-decoration: none;
+  text-align: left;
+}
+
+.glossymenu li a:hover {
+  background-image: url('/art/menuitem.gif');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-color: #004400;
+  width: 152px;
+}
+
+.glossymenu li img {
+  background-image: none;
+  padding: 0 0 0 0;
+}
+
+* html .glossymenu li a { /*IE only. Actual menu width minus left padding of A element (10px) */
+  width: 160px;
+}
+
+.glossymenu li a#img {
+  background-image: none;
+  padding: 0 0 0 0;
+}
+
+.glossymenu li a#bmta {
+  background-image: none;
+  padding: 0 0 0 0;
+}
+

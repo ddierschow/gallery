@@ -1,0 +1,108 @@
+body { font-family: Johnston, "ITC Johnston", "P22 London Underground", "Gill Sans", "Trebuchet MS", Ariel, Helvetica, sans-serif; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.main {
+	text-align: center;
+	display: table-cell;
+	padding: 0px 6px;
+	font-size: large;
+	position: absolute;
+	width: auto;
+	left: 180px;
+	right: 120px;
+}
+.main h2 {
+	font-size: x-large;
+}
+
+.logobar {
+	float: right;
+	text-align: center;
+	display: table-cell;
+	position: relative;
+	left: auto;
+	width: 100px;
+}
+.logobar img {
+	padding-bottom: 26px;
+}
+
+.lefty    {float: left;}
+.righty   {float: right;}
+
+
+
+.galleryindex {
+	text-align: center;
+	display: table-cell;
+	padding: 0px 6px;
+}
+.galleryindex h2 { text-align: center; }
+
+
+.gallery {
+	width: 100%;
+	border-width: 1px;
+	border-style: solid;
+	padding: 8px;
+}
+.gallerypane1 { }
+.gallerypane2 { float: left; }
+.galleryitem {
+	padding: 0px 0px;
+	text-align: center;
+	width: 376px;
+	height: 288px;
+	border-right: 4px solid;
+	border-top: 4px solid;
+}
+.gallery img {
+	border-width: 1px;
+	border-style: solid;
+}
+.gallery h2 { text-align: center; }
+
+
+.gallerypicture h3 {
+	text-align: center;
+	margin: 0;
+}
+.gallerypicture { width: 1000px; }
+.gallerypicture1 {
+	width: 720px;
+	position: relative;
+	float: left;
+}
+
+
+
+.leftarrow {
+	margin-top: 400px;
+	float: left;
+	width: 140px;
+}
+.rightarrow {
+	margin-top: 400px;
+	float: right;
+	width: 140px;
+}
+.description {
+	text-align: left;
+}
+.credit {
+	text-align: right;
+	font-size: x-small;
+	font-style: italic;
+}
+
+.copyright {
+	text-align: right;
+	font-style: italic;
+}
+
+.emailnote {
+	text-align: center;
+	font-size: small;
+	font-style: italic;
+}

@@ -1,0 +1,21 @@
+body      { background-color: #001A00; color: #FFFFFF; }
+
+a:link    { background-color: transparent; color: #9999FF; }
+a:visited { background-color: transparent; color: #9999CC; }
+a:active  { background-color: transparent; color: #9999FF; }
+a:hover   { background-color: transparent; color: #9999FF; }
+
+.main     { background-color: #001A00; }
+.index h2 { color: #FFFFFF; }
+
+.gallery     { background-color: #003300; border-color: #FFFFFF; }
+.gallery img { background-color: #003300; border-color: #FFFFFF; }
+.galleryitem { background: #000000; border-right-color: #003300; border-top-color: #003300; }
+
+.glossymenu li { background-color: #000000; border-color: #FFFFFF; }
+.glossymenu li a { background-color: #001A00; color: white; }
+.glossymenu li img { background-color: #001A00; color: white; }
+.glossymenu li a:visited { color: white; }
+.glossymenu li a:active { color: white; }
+.glossymenu li a:hover { background-color: #004400; }
+
